@@ -14,7 +14,12 @@ Code powering <https://rdrnt.github.io/canada-slippi-ranked-leaderboards/#/>
 - [Tailwind](https://tailwindcss.com/) for css
 
 Fork of [
-CoSlippiLeaderboard](https://github.com/Grantismo/CoSlippiLeaderboard).
+CoSlippiLeaderboard](https://github.com/Grantismo/CoSlippiLeaderboard). This fork inludes:
+
+- Visual styling changes
+- Support for players province/city
+- Prettier support
+- Improved instructions for getting started with your own leaderboards
 
 ## How it works
 
