@@ -1,5 +1,5 @@
 {
-  "name": "ontario-melee-leaderboards",
+  "name": "canada-slippi-ranked-leaderboards",
   "version": "1.0.0",
   "description": "Simple boilerplate for working with React, redux, react-router and Github Pages",
   "private": "true",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rdrnt/ontario-melee-leaderboards.git"
+    "url": "git+https://github.com/rdrnt/canada-slippi-ranked-leaderboards.git"
   },
   "author": "Riley D <riley@drnt.ca> (http://github.com/rdrnt)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rdrnt/ontario-melee-leaderboards/issues"
+    "url": "https://github.com/rdrnt/canada-slippi-ranked-leaderboards/issues"
   },
-  "homepage": "https://rdrnt.github.io/ontario-melee-leaderboards/",
+  "homepage": "https://rdrnt.github.io/canada-slippi-ranked-leaderboards/",
   "dependencies": {
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",
