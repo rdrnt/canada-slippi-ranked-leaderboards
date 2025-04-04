@@ -82,10 +82,10 @@ export default function HomePage() {
       </button>
 
       <div className="p-4 text-gray-300 flex flex-col items-center">
-        <div>Created by <a href="https://www.twitter.com/_drnt" target="_blank" rel="noreferrer"
-             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">d r n t</a></div>
+        <div>Maintained by <a href="https://www.twitter.com/_drnt" target="_blank" rel="noreferrer"
+             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">DRNT</a></div>
 
-        <div className="text-gray-300 text-sm text-center">Last updated: {updateDesc}. Updates every morning & night.</div>
+        <div className="text-gray-300 text-sm text-center">Last updated: {updateDesc}. Ping me on Discord or Twitter to update.</div>
 
         <div className="text-gray-300 mt-2 text-sm text-center"><br />
         Fork of <a href="https://github.com/Grantismo/CoSlippiLeaderboard" target="_blank" rel="noreferrer"

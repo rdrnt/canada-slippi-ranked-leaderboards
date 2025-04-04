@@ -64,11 +64,16 @@ const getPlayers = async () => {
   const allUniqueSpreadsheetData = uniq(spreadsheetData, 'connectCode');
   const allData = allUniqueSpreadsheetData.map(playerData => getPlayerDataThrottled(playerData.connectCode))
 
+  console.log('All data', allData.length);
+
   const results = await Promise.all(allData.map(p => p.catch(e => e)));
   const validResults = results.filter(result => !(result instanceof Error));
+  console.log('Got results', validResults.length);
+  console.log('Got results large', JSON.stringify(validResults, null, 2));
   const unsortedPlayers = validResults
     .filter((data: any) => data?.data?.getConnectCode?.user)
     .map((data: any) => data.data.getConnectCode.user);
+  console.log('Unsorted players', unsortedPlayers.length);
 
   
   const unsortedPlayersWithRegionData = unsortedPlayers.map(player => {
@@ -86,6 +91,8 @@ const getPlayers = async () => {
 
     return player;
   })
+
+  console.log('players', unsortedPlayersWithRegionData.length);
 
   const sortedPlayers = unsortedPlayersWithRegionData.sort((p1, p2) =>
   p2.rankedNetplayProfile.ratingOrdinal - p1.rankedNetplayProfile.ratingOrdinal);

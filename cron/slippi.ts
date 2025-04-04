@@ -17,7 +17,6 @@ export const getPlayerData = async (connectCode: string) => {
             dailyRegionalPlacement
             continent
             characters {
-                    id
                     character
                     gameCount
                     __typename
