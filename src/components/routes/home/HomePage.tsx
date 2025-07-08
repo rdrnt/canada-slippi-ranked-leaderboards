@@ -84,12 +84,23 @@ export default function HomePage() {
       */}
 
       <div className="p-4 text-gray-300 flex flex-col items-center">
-        <div>Maintained by <a href="https://www.twitter.com/_drnt" target="_blank" rel="noreferrer"
-             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">DRNT</a></div>
+       
+        <div className="bg-slate-50 text-sm text-center mb-2 h-auto rounded-md p-2 max-w-lg">
+        <div className="text-black text-sm text-center">{`This project is no longer active. Slippi’s backend changes broke the update process, and there’s no official support for projects like this. Thanks for following Canada’s Slippi Ranked Leaderboards and supporting Canadian talent!`}</div>
+          </div>
 
-        <div className="text-gray-300 text-sm text-center">Last updated: {updateDesc}. Ping me on Discord or Twitter to update.</div>
+   
+        
 
-        <div className="text-gray-300 mt-2 text-sm text-center"><br />
+        <div className="text-gray-300 text-sm text-center mt-2 mb-2">Last updated: {updateDesc}</div>
+
+        <div className="text-gray-300 mt-1 text-sm text-center">
+        Maintained by <a href="https://www.twitter.com/_drnt" target="_blank" rel="noreferrer"
+             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
+            DRNT
+        </a></div>
+
+        <div className="text-gray-300 mt-1 text-sm text-center">
         Fork of <a href="https://github.com/Grantismo/CoSlippiLeaderboard" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
             Grantismo/CoSlippiLeaderboard
