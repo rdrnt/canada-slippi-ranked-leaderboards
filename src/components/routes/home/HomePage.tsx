@@ -75,11 +75,13 @@ export default function HomePage() {
       </select>
     </div>
 
+        { /* 
     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
         <a href="https://docs.google.com/forms/d/1hrqZNXV248bKtxPKVKQv1dlevI0_IPREkNypKmarVA8" target="_blank" rel="noreferrer">
           Submit your profile
         </a>
       </button>
+      */}
 
       <div className="p-4 text-gray-300 flex flex-col items-center">
         <div>Maintained by <a href="https://www.twitter.com/_drnt" target="_blank" rel="noreferrer"
